@@ -14,7 +14,7 @@
 # 是否开启调试模式
 #   开启后会将修改过的字节码存于当前目录下名为
 #   {className}_modified.class 的文件中
-debug: false
+debug: False
 
 # API路径
 #   对于如下格式的MojangAPI: https://{subdomain}.mojang.com/{path}
@@ -23,13 +23,16 @@ debug: false
 #   例如, apiRoot为 https://yggdrasil.example.com/
 #   则 https://sessionserver.mojang.com/session/minecraft/join
 #   会被替换为 https://yggdrasil.example.com/sessionserver/session/minecraft/join
-apiRoot: https://yggdrasil.example.com/
+apiRoot: http://www.wlsd8.com/
 
 # 加入皮肤白名单的域名后缀
 #   只有以 .minecraft.net, .mojang.com,
 #   或以下列表中任一元素为后缀的域名才能提供材质
 skinWhitelistDomains:
+  - .wlsd8.com
   - .example.com
+  - .minecraft.net
+  - .mojang.com
 
 # 用于验证profile properties的公钥
 #   如果不想进行公钥替换, 可将该属性删除
